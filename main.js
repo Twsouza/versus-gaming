@@ -8,7 +8,7 @@ class Player {
     this.strength = maxPoints * 0.2;
     this.name = player;
 
-    // show strenght and health player
+    // show strength and health player
     this.updateDom();
 
     // event listener
@@ -34,7 +34,7 @@ class Player {
 
   increaseStrength() {
     if(this.health < 1) {
-      alert('You cant increase your health');
+      alert('You cant increase your strength');
       return;
     }
     this.health--;
